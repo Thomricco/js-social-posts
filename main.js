@@ -68,10 +68,12 @@ for (let i = 0; i < post.length; i++) {
   
 };
 
-document.querySelector('.like-button__label').addEventListener('click', function() {
-    this.classList.toggle('blu');
+/*document.querySelector('.like-button').addEventListener('click', function() {
+    this.classList.toggle('blue');
+});*/
+
+document.querySelector(".like-button").addEventListener("click", function() {
+    this.style.color = "blue";
 });
 
-document.querySelector(".like-button__label").addEventListener("click", function() {
-    this.style.color = "blu";
-});
+//document.querySelector(".like-button").style.color = "blue";
