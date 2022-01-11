@@ -66,4 +66,12 @@ for (let i = 0; i < post.length; i++) {
         </div>            
     </div> `
   
-}
+};
+
+document.querySelector('.like-button__label').addEventListener('click', function() {
+    this.classList.toggle('blu');
+});
+
+document.querySelector(".like-button__label").addEventListener("click", function() {
+    this.style.color = "blu";
+});
